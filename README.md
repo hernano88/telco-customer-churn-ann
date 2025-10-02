@@ -1,4 +1,4 @@
-# Proyecto 4. Customer Churn Prediction (Deep Learning - ANN)
+# Proyecto Customer Churn Prediction (Deep Learning - ANN)
 
 Modelo de red neuronal artificial para predecir la baja de clientes en telecomunicaciones (churn), utilizando el dataset de Telco Customer Churn. Incluye limpieza, transformación de variables categóricas, escalado, entrenamiento de red neuronal y evaluación con métricas de clasificación.
 
