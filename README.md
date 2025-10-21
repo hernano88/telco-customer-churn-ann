@@ -51,24 +51,8 @@ Matriz de confusión para identificar falsos positivos y negativos.
 ---
 
 ## 📸 Ejemplos (código del notebook)
-Construcción del modelo
-model = keras.Sequential([
-    keras.layers.Dense(26, input_shape=(26,), activation='relu'),
-    keras.layers.Dense(15, activation='relu'),
-    keras.layers.Dense(1, activation='sigmoid')
-])
 
-model.compile(optimizer='adam',
-              loss='binary_crossentropy',
-              metrics=['accuracy'])
-
-model.fit(X_train, y_train, epochs=100)
-
-Evaluación
-from sklearn.metrics import classification_report, confusion_matrix
-print(classification_report(y_test, y_pred))
-
-sn.heatmap(cm, annot=True, fmt='d')
+![Construccion del modelo](fotos/deep.PNG)
 
 ---
 
